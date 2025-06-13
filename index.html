@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title> Talisha Rahman's Website</title>
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="style.css"
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/talisha-rahman/" target="_blank">
+                        <span class="linked">Linked</span><span class="in">In</span></a></li>
+                    <li><a href="https://docs.google.com/document/d/1eqok2Z3HoTIAgLN8RVhIR9G8KAu9OVNT1dbRVy0xEZ4/edit?usp=sharing">Resume</a></li>
+                    <li><a href="mailto:talisharahman3@gmail.com">Contact Me</a> </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h1 class="main-heading">Welcome to my Website!</h1>
+            <hr class="underline">
+            <h2>By Talisha Rahman</h2>
+            <img src="https://www.svgheart.com/wp-content/uploads/2023/01/valentines-day-cute-kitty_390-430-min.png" alt="CUte Center Image">
+
+            <section class="about-me">
+                <h2>About Me</h2>
+                <p>Hi! I'm Talisha Rahman. I am a 22 year old Senior at New York City College of Technology pursuing a Computer Systems Technology Major. With my passion for 
+                    solving problems, building projects, working as a team, I aspire to become a Data Analyst. I was born and raised in Woodside, Queens and love it here. Outside of school,
+                I am a Junior Robotics and Engineer Instructor at Snapology. I also love spending time with my family and friends.
+             </p>
+            </section>
+            <div id="ttpr-button" onclick="openPopup()"> TTPR- What I'm Learning</div>
+            <div id="ttpr-popup">
+                <div class="popup-content">
+                    <span class="close-btn" onclick="closePopup()">&times;</span>
+                    <h2> TTPR - Learning Diary</h2>
+                    <p><strong>Week One (June 9-12)</strong> - We started this bootcamp off by learning the basics of HTML and CSS. We completed exercises and projects
+                    to hone our skills in those areas.</p>
+                </div>
+            </div>
+        </main>
+    <script>
+        function openPopup(){
+            document.getElementById("ttpr-popup").style.display = "block";
+        }
+        function closePopup(){
+            document.getElementById("ttpr-popup").style.display = "none";
+        }
+    </script>
+    </body>
+</html>
